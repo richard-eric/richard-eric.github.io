@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="shortcut icon" href="https://venngage-wordpress.s3.amazonaws.com/uploads/2022/09/meme_doge_dog.png" type="image/x-icon">
+    <title>Eric</title>
+    <link rel="stylesheet" href="./assets/home.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <script src="https://kit.fontawesome.com/f7c0283164.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="profile-card">
+            <div class="profile-header">
+                <img src="https://img.upanh.tv/2023/01/05/hinh-nen-powerpoint-gif-1.gif" align="center" alt="">
+                <!--Ảnh bìa-->
+            </div>
+            <div class="profile-body">
+                <div class="author-img">
+                    <img src="./img/b1b5c8f30d4cd012895d.jpg" alt="">
+                    <H1 style="font-weight: bold; font-style: italic; color: white;">Lê Quang Đại</H1>
+                    <button id="Facebook" onClick="facebook()" class="bubbly-button"><i class="fa fa-facebook-f"></i>&nbsp;&nbsp;Facebook&nbsp;&nbsp;</button>&nbsp;
+                    <br><br>
+                    <hr class="ThanhGachNgang"><br><br>
+                    <!-- Css thông tin mạng xã hội ! -->
+                    <div class="btn-social">
+                        <a style="text-decoration: none;" href="https://www.youtube.com/channel/UCgZd17zXKN03Y65KEyXosYQ" target="_blank">
+                            <div style="background: rgb(255, 0, 0);background: linear-gradient(138deg, rgba(235,49,43,1) 66%);"><i class="fa fa-youtube-play"></i>&nbsp; Youtube</div>
+                        </a>
+                        <br>
+                        <a style="text-decoration: none;" href="https://github.com/richard-eric" target="_blank">
+                            <div style="background: rgb(35, 35, 36); background: linear-gradient(90deg, rgb(34, 34, 34) 0%, rgb(32, 32, 32) 50%, rgb(46, 45, 45) 100%);"><i class="fa fa-github"></i>&nbsp; Github</div>
+                        </a>
+                        <br>
+                        <a style="text-decoration: none;" href="https://discord.gg/BrCzVCcnpj" target="_blank">
+                            <div style="background: rgb(88,101,242); background: linear-gradient(139deg, rgba(88,101,242,1) 41%, rgba(88,20,147,1) 95%);"><i class='fa-brands fa-discord'></i>&nbsp; Discord</div>
+                        </a>
+                        <br>
+                        <a style="text-decoration: none;" href="https://www.instagram.com/ericisthebad/" target="_blank">
+                            <div style="background: rgb(111, 0, 255); background: linear-gradient(139deg, rgb(248, 37, 0) 0%, rgb(150, 8, 131) 21%, rgba(88,101,242,1) 37%, rgb(248, 0, 186) 46%, rgb(209, 163, 11) 66%, rgb(233, 7, 82) 95%);"><i class="fa fa-instagram"></i>&nbsp; Instagram</div>
+                        </a>
+                        <br>
+                    </div><br>
+                    <hr class="ThanhGachNgang">
+                    <br>
+                    <p style="color:rgb(255, 255, 255); font-size: 12px;">
+                        Created by Eric
+                        <br>
+                        <strong>
+      All rights reserved - © 2023
+      </strong>
+                    </p><br>
+                    <script type="text/javascript" src="./assets/index.js"></script>
+                    <script>
+                        var animateButton = function(e) {
+                            e.preventDefault;
+                            //reset animation
+                            e.target.classList.remove('animate');
+
+                            e.target.classList.add('animate');
+                            setTimeout(function() {
+                                e.target.classList.remove('animate');
+                            }, 700);
+                        };
+
+                        var bubblyButtons = document.getElementsByClassName("bubbly-button");
+
+                        for (var i = 0; i < bubblyButtons.length; i++) {
+                            bubblyButtons[i].addEventListener('click', animateButton, false);
+                        }
+
+                        function facebook() {
+                            setTimeout(function() {
+                                    window.open('https://www.facebook.com/EricIsTheBad', 'ultimate')
+                                },
+                                100);
+                        }
+
+                        function messenger() {
+                            setTimeout(function() {
+                                    window.open('https://www.facebook.com/EricIsTheBad', 'ultimate')
+                                },
+                                100);
+                        }
+                    </script>
+
+</body>
+
+</html>
